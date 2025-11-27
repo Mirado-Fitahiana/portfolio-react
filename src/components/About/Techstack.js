@@ -32,40 +32,22 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDotnet />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDjango />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSymfony />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVuedotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAngular />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -78,15 +60,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOracle />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
       </Col>
     </Row>
   );

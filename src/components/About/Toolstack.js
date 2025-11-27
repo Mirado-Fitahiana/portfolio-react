@@ -28,12 +28,6 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -41,15 +35,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftazure />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApache />
