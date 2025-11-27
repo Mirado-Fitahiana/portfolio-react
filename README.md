@@ -1,10 +1,7 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  Portfolio Website - Mirado RAZAFINDRATANDRA<br/>
+  Développeur Fullstack
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
@@ -12,65 +9,83 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
 </center>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## À propos
 
-## TL;DR
+Portfolio personnel de Mirado RAZAFINDRATANDRA, Développeur Fullstack et Consultant IT.
+Ce site présente mes compétences techniques, mes projets et mon parcours professionnel.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## Technologies utilisées
 
-## Built With
-
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
+Ce projet a été développé avec les technologies suivantes :
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
-- VsCode
-- Vercel
+- React-Bootstrap
+- VS Code
 
-## Features
+## Fonctionnalités
 
-**📖 Multi-Page Layout**
+**📖 Navigation Multi-Pages**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Design moderne avec React-Bootstrap et CSS personnalisé**
 
-**📱 Fully Responsive**
+**📱 Totalement Responsive**
 
-## Getting Started
+**🚀 Animations et effets visuels**
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## Installation et Configuration
 
-## 🛠 Installation and Setup Instructions
+1. Cloner le repository : 
+```bash
+git clone https://github.com/Mirado-Fitahiana/portfolio-react.git
+```
 
-1. Installation: `npm install`
+2. Installation des dépendances :
+```bash
+npm install
+```
 
-2. In the project directory, you can run: `npm start`
+3. Lancement en mode développement :
+```bash
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+L'application sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-## Usage Instructions
+## Structure du Projet
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+Les composants principaux se trouvent dans `/src/components/` :
+- **Home/** - Page d'accueil et présentation
+- **About/** - À propos et compétences techniques
+- **Projects/** - Portfolio de projets
+- **Resume/** - CV et parcours professionnel
 
-### Show your support
+## Compétences Présentées
 
-Give a ⭐ if you like this website!
+### Langages
+- Python, PHP, Java, C#, JavaScript, C++
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+### Frameworks
+- Django, Flask, Laravel, Symfony, .NET
+- React.js, Vue.js, Angular
+
+### Bases de données
+- MySQL, PostgreSQL, Oracle, MongoDB
+
+### Outils
+- Git, Docker, VS Code, IntelliJ IDEA, PyCharm
+- Jira, Jenkins, Apache, Postman
+
+## Contact
+
+- GitHub: [@Mirado-Fitahiana](https://github.com/Mirado-Fitahiana)
+- LinkedIn: [Mirado RAZAFINDRATANDRA](https://www.linkedin.com/in/mirado-razafindratandra-55aa782a2/)
+- Facebook: [Mirado.fitahiana](https://www.facebook.com/Mirado.fitahiana)
+
+---
+
+Développé avec ❤️ par Mirado RAZAFINDRATANDRA

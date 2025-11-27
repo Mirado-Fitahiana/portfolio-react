@@ -9,21 +9,26 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Bonjour à tous, je suis <span className="purple">RAZAFINDRATANDRA Miradomahefa Fitahiana</span>,
-            originaire de Antananarivo,<span className="purple"> Madagascar</span>.
+            développeur Fullstack basé à <span className="purple">Antananarivo, Madagascar</span>.
             <br />
-            Actuellement je suis Consultant-IT chez <span className="purple">BICI Madagascar</span>
+            Actuellement, je suis <span className="purple">Consultant IT chez BICI Madagascar</span>, où je
+            conçois et développe des solutions web et des systèmes de gestion innovants.
             <br />
-            J'ai fait mon parcours Universitaire à <span className="purple">IT University </span> Antananarivo ou j'ai obtenu mon diplôme de <span className="purple">Licence en Informatique</span>
+            J'ai obtenu ma <span className="purple">Licence en Informatique</span> à l'<span className="purple">IT University</span>
+            d'Antananarivo, avec une spécialisation en développement logiciel.
             <br />
             <br />
-            A part le développement, je suis aussi interéssé par 
+            En dehors du développement, mes centres d'intérêt incluent :
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Basket-Ball
+              <ImPointRight /> Technologies émergentes et veille technologique
             </li>
             <li className="about-activity">
-              <ImPointRight /> Guitare
+              <ImPointRight /> Basketball et sports d'équipe
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Musique et guitare
             </li>
             <li className="about-activity">
               <ImPointRight /> Natation

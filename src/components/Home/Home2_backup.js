@@ -18,37 +18,37 @@ function Home2() {
               PERMETTEZ-MOI DE ME <span className="purple"> PRÉSENTER </span>
             </h1>
             <p className="home-about-body">
-              Développeur Fullstack passionné avec une solide expertise en développement web et mobile.
-              Je conçois et développe des solutions innovantes pour répondre aux besoins métiers.
+              Avec une passion prononcée pour la technologie et le développement, je
+              perfectionne mes compétences en tant que développeur Fullstack.
               <br />
-              <br />Je maîtrise plusieurs langages de programmation incluant
+              <br />Je suis compétent dans
               <i>
-                <b className="purple"> Python, PHP, Java, C#, JavaScript et C++.</b>
+                <b className="purple"> Python, JAVA, PHP, JavaScript et .net.</b>
               </i>
               <br />
               <br />
-              Mon expertise couvre le développement d'applications web complètes, d'ERP,
-              de systèmes de gestion et d'applications mobiles
+              Mes domaines d’intérêt incluent la création et la maintenance
+              d’ERP, de sites de back office et de front office
               <i>
-                <b className="purple"> robustes et évolutives</b>
+                <b className="purple"> innovants et sur mesure </b>
               </i>
-              , avec une attention particulière à l'architecture et aux bonnes pratiques.
+              ainsi que le développement de systèmes performants.
               <br />
               <br />
-              Je travaille avec des frameworks modernes tels que
+              J’ai une expérience significative avec des frameworks tels que
               <i>
-                <b className="purple"> Django, Flask, Laravel, Symfony, .NET, React.js, Vue.js et Angular</b>
+                <b className="purple"> Laravel, Symfony, .NET, React.js et Vue.js</b>
               </i>
-              , et je gère efficacement les bases de données
+              , ainsi que dans la gestion de bases de données avec
               <i>
-                <b className="purple"> MySQL, PostgreSQL, Oracle et MongoDB.</b>
+                <b className="purple"> MySQL, PostgreSQL et Oracle.</b>
               </i>
               <br />
               <br />
-              Passionné par les nouvelles technologies, je m'intéresse particulièrement à
-              <b className="purple"> l'automatisation</b>, <b className="purple">l'optimisation des performances</b> et
+              Je suis toujours prêt à relever de nouveaux défis, notamment dans des
+              domaines comme <b className="purple">l’automatisation</b> et
               <i>
-                <b className="purple"> l'architecture des systèmes distribués.</b>
+                <b className="purple"> l’optimisation des systèmes.</b>
               </i>
             </p>
           </Col>
@@ -62,7 +62,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>RETROUVEZ-MOI SUR</h1>
             <p>
-              N'hésitez pas à <span className="purple">me contacter</span>
+              N’hésitez pas à <span className="purple">me contacter</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

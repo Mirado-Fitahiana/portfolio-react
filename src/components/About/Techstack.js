@@ -12,23 +12,33 @@ import {
 } from "react-icons/di";
 import {
   SiPhp,
-  SiFirebase,
   SiMysql,
   SiOracle,
   SiPostgresql,
+  SiDjango,
+  SiFlask,
+  SiLaravel,
+  SiSymfony,
+  SiDotnet,
+  SiVuedotjs,
+  SiAngular,
+  SiDocker,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -37,10 +47,34 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSymfony />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOracle />
@@ -49,16 +83,10 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiDocker />
       </Col>
     </Row>
   );

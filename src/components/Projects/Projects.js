@@ -7,6 +7,9 @@ import ionic from "../../Assets/Projects/language/ionic.png";
 import java from "../../Assets/Projects/language/java.png";
 import php from "../../Assets/Projects/language/php.png";
 import python from "../../Assets/Projects/language/python.png";
+// Utilisation d'images existantes pour les nouveaux projets
+import csharp from "../../Assets/Projects/language/java.png"; // placeholder
+import dotnet from "../../Assets/Projects/language/java.png"; // placeholder
 
 function Projects() {
   return (
@@ -14,7 +17,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Mes récents <strong className="purple">travails </strong>
+          Mes récents <strong className="purple">travaux </strong>
         </h1>
         <p style={{ color: "white" }}>
         Voici quelques projets que j'ai accomplis récemment.
@@ -22,30 +25,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={java}
-              isBlog={false}
-              title="Automatisation Interface Swing"
-              description="Développement d'un framework en Java permettant d'accélérer la création d'interfaces utilisateur (JPanel) avec tous ses composants (boutons, listes, champs de saisie), basé sur une approche 'Database First'."
-
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={python}
               isBlog={false}
-              title="BACK-OFFICE Mautourco"
-              description="J'ai participé au développement du back-office de Mautourco avec Python et Django, en concevant des fonctionnalités pour la gestion des données et l'administration, tout en assurant une interface intuitive et un backend performant."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ionic}
-              isBlog={false}
-              title="Haona Soa"
-              description="J'ai participé à la création d'une application mobile développée avec React-Ionic, intégrant des mini-jeux visant à sensibiliser et informer les femmes sur le changement climatique. "
+              title="Plateforme Intelligente de Recrutement - Django/React"
+              description="Plateforme d'aide au recrutement avec IA intégrée. Lecture automatisée de CV (PDF/DOCX) via Python et Gemini, génération d'offres d'emploi avec Anthropic Claude, interface bilingue avec i18n. Déploiement sur Vercel (React), Render (Django) et Supabase (PostgreSQL). Intégration de multiples IA : Gemini, OpenAI et Anthropic. Tests unitaires backend avec Docker et CI/CD."
             />
           </Col>
 
@@ -53,9 +36,36 @@ function Projects() {
             <ProjectCard
               imgPath={react}
               isBlog={false}
-              title="Mon portfolio"
-              description="J'ai créé mon portfolio avec React pour présenter mes réalisations et mon parcours professionnel, et je l'ai déployé sur Netlify."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Mautourco Mobile - Application Mobile"
+              description="Application mobile Mautourco développée avec React Native{react}. Interface utilisateur moderne pour la gestion mobile des opérations touristiques, synchronisation en temps réel avec le backend Django, navigation intuitive et expérience utilisateur optimale sur iOS et Android."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={python}
+              isBlog={false}
+              title="Back-Office Mautourco"
+              description="Développement du back-office de Mautourco avec Python et Django. Conception de fonctionnalités avancées pour la gestion des données, l'administration et le suivi des opérations, avec une interface intuitive et un backend hautement performant."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={react}
+              isBlog={false}
+              title="Haona Soa - Application Mobile"
+              description="Application mobile développée avec React-Ionic intégrant des mini-jeux interactifs pour sensibiliser et informer les femmes sur le changement climatique. Interface engageante et expérience utilisateur optimisée pour l'impact social."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={react}
+              isBlog={false}
+              title="Portfolio Personnel React"
+              description="Portfolio professionnel développé avec React.js présentant mes compétences, réalisations et parcours. Design moderne et responsive, déployé sur Netlify avec intégration continue."
+              ghLink="https://github.com/Mirado-Fitahiana/portfolio-react"
             />
           </Col>
 
@@ -63,10 +73,20 @@ function Projects() {
             <ProjectCard
               imgPath={php}
               isBlog={false}
-              title="Géstion Marathon"
-              description="J'ai développé une application de gestion de course avec PHP/Laravel, couvrant tout le processus, de l'inscription des participants jusqu'à la publication des résultats. Ces derniers peuvent être triés par genre ou par tranche d'âge pour une meilleure organisation et analyse."
+              title="Gestion de Marathon - Laravel"
+              description="Application complète de gestion de courses développée avec PHP/Laravel. Gère l'ensemble du processus : inscription des participants, chronométrage, et publication des résultats avec filtres avancés par genre et catégorie d'âge. Architecture MVC et base de données optimisée."
               ghLink="https://github.com/Mirado-Fitahiana/template_laravel"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+       
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={java}
+              isBlog={false}
+              title="Framework Java Swing - Automatisation UI"
+              description="Développement d'un framework Java innovant permettant la génération automatique d'interfaces utilisateur Swing (JPanel) avec tous leurs composants (boutons, listes, champs de saisie), basé sur une approche 'Database First'. Réduit considérablement le temps de développement des interfaces."
             />
           </Col>
 
